@@ -87,6 +87,19 @@ define(
                     }
                 });
 
+                var secret = "38384040373937396665";
+                var input = "";
+                var timer;
+                //The following function sets a timer that checks for user input. You can change the variation in how long the user has to input by changing the number in ‘setTimeout.’ In this case, it’s set for 500 milliseconds or ½ second.
+                $(document).keyup(function(e) {
+                   input += e.which;
+                   clearTimeout(timer);
+                   timer = setTimeout(function() { input = ""; }, 500);
+                   if (input == secret) {
+                        document.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    }
+                });
+
                 // DELETE request for delete buttons
                 $(document).on('click', '[data-dialog]', function () {
                     var $el      = $(this),

@@ -1,5 +1,8 @@
 # 1.3.x
 
+## Features
+- Enhance the user experience with a little easter egg
+
 ## Bug fixes
 - PIM-1235: Fix information message when trying to delete a category tree used by a channel
 - PIM-2103: Display a loading when deleting a category tree
