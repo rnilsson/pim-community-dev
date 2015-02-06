@@ -196,6 +196,7 @@
 - PIM-3632: Correctly show scopable attribute icons on scope change
 - PIM-3583: Fix the bad parsed filter value with spaces
 - PIM-3700: Fix comment display on long words
+- PIM-3575: Sort csv column in a determinist way (alphabetically) on export
 
 # 1.2.25 (2015-02-04)
 
